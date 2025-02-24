@@ -1,1 +1,146 @@
-<h1>This is my homepage</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mario Links</title>
+  <link href="https://fonts.googleapis.com/css?family=Oswald|Quattrocento" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js"></script>
+
+
+  <style> 
+  
+    html {
+      min-height: 100%
+    }
+
+    body {
+      min-height: 100%;
+      padding-top: 40px;
+      padding-bottom: 40px;
+      background: linear-gradient(90deg, #e52521, #e7136a, #e10fa6, #cf18e6, #a357fd, #7577fe, #358bfd, #049cd8);
+      font-family: 'Quattrocento', serif;
+      font-size: 16p
+    }
+
+    a {
+      text-decoration: none;
+      color: white;
+    }
+
+    .avatar-image {
+      width: 128px;
+      height:128px;
+      object-fit: cover;
+      border-radius: 128px;
+    }
+
+    .thumbnail {
+      width: 48px;
+      height: 48px;
+      object-fit: cover;
+      border-radius: 48px;
+    }
+
+    .item {
+      background-color: rgba(52, 52, 52, 0.39);
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      border-radius: 1000px;
+      padding: 5px;
+      padding-right: 53px;
+      box-shadow: 7px 10px 16px 0px rgba(0,0,0,0.75);
+    }
+
+    .main-container {
+      max-width: 640px;
+      margin: auto;
+    }
+
+    .image-row {
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .name-row {
+      margin-bottom: 30px;
+      text-align: center;
+      font-family: 'Oswald', sans-serif;
+      font-size: 48px;
+      font-weight: 900;
+      color: white;
+    }
+
+    .social-icons-row {
+      margin-bottom: 30px;
+      display: flex;
+      justify-content: space-around;
+    }
+
+    .link-text {
+      text-align: center;
+      flex-grow: 1;
+    }
+
+    </style>
+</head>
+
+
+<body>
+  <div class="main-container">
+    <div class="image-row">
+      <img class="avatar-image" src="images/mario-headshot.jpg" alt="Mario headshot">
+    </div>
+
+    <div class="name-row">
+      Mario
+    </div>
+
+    <div class="social-icons-row">
+      <a href="https://x.com/supermariomovie?prefetchTimestamp=1740380683522&mx=2" target="_blank">
+        <i class="fa-brands fa-square-x-twitter"></i>
+      </a>
+
+      <a href="https://www.instagram.com/supermariomovie/?hl=en" target="_blank">
+        <i class="fa-brands fa-square-instagram"></i>
+      </a>
+
+      <a href="https://www.youtube.com/watch?v=TnGl01FkMMo">
+        <i class="fa-brands fa-square-youtube"></i>
+      </a>
+      <a href="https://www.facebook.com/supermariomovie/" target="_blank">
+        <i class="fa-brands fa-square-facebook"></i>
+      </a>
+    </div>
+
+    <div class="links-row">
+      <div class="item">
+        <img class="thumbnail" src="images/cart-icon.jpg" alt="Cart icon">
+
+        <a class="link-text" href="https://www.nintendo.com/us/store/characters/mario/?srsltid=AfmBOootTmVcep84lb6WcEdGDLBD1iRc488AW8BGZx4qDEivoYfNtcLE" target="_blank">
+          Official Nintendo Store
+        </a>
+      </div>
+
+      <div class="item">
+        <img class="thumbnail" src="images/review-icon.jpg" alt="Review icon">
+
+        <a class="link-text" href="https://www.rottentomatoes.com/m/the_super_mario_bros_movie" target="_blank">
+          Movie Reviews
+        </a>
+      </div>
+
+      <div class="item">
+        <img class="thumbnail" src="images/park-icon.jpg" alt="Review icon">
+
+        <a class="link-text" href="https://www.universalstudioshollywood.com/web/en/us/things-to-do/lands/super-nintendo-world" target="_blank">
+          Theme Park
+        </a>
+      </div>
+
+    </div>
+  </div>
+
+</body>
+</html>
